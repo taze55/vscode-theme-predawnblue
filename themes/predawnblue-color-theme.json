@@ -1,0 +1,268 @@
+// 次のコマンドで調査可能 "Developer: Inspect Editor Tokens and Scopes"
+{
+  "name": "predawnblue",
+  "tokenColors": [
+    {
+      "settings": {
+        "foreground": "#f8f8ff"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#aab6e6"
+      }
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "settings": {
+        "foreground": "#c7ebc3"
+      }
+    },
+    {
+      "name": "meta template expression",
+      "scope": ["meta.interpolation.cs", "meta.fstring.python"],
+      "settings": {
+        "foreground": "#f0c5fa"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "settings": {}
+    },
+    {
+      "name": "Built-in constant",
+      "scope": "constant.language",
+      "settings": {
+        "foreground": "#e5d6ff"
+      }
+    },
+    {
+      "name": "User-defined constant",
+      "scope": ["constant.character", "constant.other"],
+      "settings": {
+        "foreground": "#e5d6ff"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": "variable",
+      "settings": {}
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#baceee"
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": "storage",
+      "settings": {
+        "foreground": "#cfe0ff"
+      }
+    },
+    {
+      "name": "Entity name type",
+      "scope": "entity.name.type",
+      "settings": {
+        "foreground": "#b2e0fe"
+      }
+    },
+    {
+      "name": "Storage type",
+      "scope": "storage.type",
+      "settings": {
+        "foreground": "#e6c9f1"
+      }
+    },
+    {
+      "name": "Class name",
+      "scope": "entity.name.class",
+      "settings": {
+        "foreground": "#d6e7b5"
+      }
+    },
+    {
+      "name": "Inherited class",
+      "scope": "entity.other.inherited-class",
+      "settings": {
+        "foreground": "#d6e7b5"
+      }
+    },
+    {
+      "name": "Function name",
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#bdeae6"
+      }
+    },
+    {
+      "name": "Function argument",
+      "scope": "variable.parameter",
+      "settings": {}
+    },
+    {
+      "name": "Tag name",
+      "scope": "entity.name.tag",
+      "settings": {}
+    },
+    {
+      "name": "Tag attribute",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "#c0eafa"
+      }
+    },
+    {
+      "name": "Library function",
+      "scope": "support.function",
+      "settings": {
+        "foreground": "#b2e0fe"
+      }
+    },
+    {
+      "name": "Library constant",
+      "scope": "support.constant",
+      "settings": {
+        "foreground": "#b2e0fe"
+      }
+    },
+    {
+      "name": "Library class/type",
+      "scope": ["support.type", "support.class"],
+      "settings": {
+        "foreground": "#b2e0fe"
+      }
+    },
+    {
+      "name": "Library variable",
+      "scope": "support.other.variable",
+      "settings": {}
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "settings": {
+        "foreground": "#f8f8f0"
+      }
+    },
+    {
+      "name": "Invalid deprecated",
+      "scope": "invalid.deprecated",
+      "settings": {
+        "foreground": "#f8f8f0"
+      }
+    }
+  ],
+  "colors": {
+    "foreground": "#e8e8f0",
+    "focusBorder": "#4a4aab",
+    "editor.foreground": "#e8e8f0",
+    "editor.background": "#32327a",
+    "editorCursor.foreground": "#e0a73c",
+    "editorCursor.background": "#ffffff",
+    "editorIndentGuide.activeBackground1": "#3a44a5",
+    "editorIndentGuide.background1": "#00000000",
+    "editorWhitespace.foreground": "#32327a",
+    "editor.lineHighlightBackground": "#333394",
+    "editor.selectionBackground": "#386dd0",
+    "editorLineNumber.foreground": "#5b66c9",
+    "editorLineNumber.activeForeground": "#a2aaf0",
+    "editor.findMatchBackground": "#308ce3",
+    "editor.findMatchHighlightBackground": "#2fa9c7",
+    "editor.wordHighlightBackground": "#1062ad",
+    "editor.wordHighlightStrongBackground": "#1b75ca",
+    "editor.wordHighlightStrongBorder": "#84b6e4",
+    "editor.selectionHighlightBackground": "#4249aa",
+    "editor.hoverHighlightBackground": "#4249aa",
+    "editor.rangeHighlightBackground": "#4249aa",
+    "editorUnnecessaryCode.opacity": "#000000c0",
+    "scrollbar.shadow": "#2f4fc480",
+    "scrollbarSlider.background": "#40a7df80",
+    "scrollbarSlider.hoverBackground": "#40a7df80",
+    "scrollbarSlider.activeBackground": "#40a7df80",
+    "debugConsole.infoForeground": "#b0d2ff",
+    "debugConsole.errorForeground": "#fec7fb",
+    "debugConsole.warningForeground": "#f7e2aa",
+    "debugConsole.sourceForeground": "#73cdfe",
+    "statusBar.foreground": "#000000",
+    "statusBar.background": "#e8e8f0",
+    "statusBarItem.errorForeground": "#7c0976",
+    "statusBarItem.errorBackground": "#f8a3f4",
+    "statusBarItem.warningForeground": "#5c4702",
+    "statusBarItem.warningBackground": "#f0db98",
+    "statusBar.debuggingBackground": "#fffbbd",
+    "statusBar.noFolderBackground": "#ececec",
+    "sideBar.border": "#e8e8f0",
+    "sideBar.background": "#32327a",
+    "sideBar.foreground": "#e8e8f0",
+    "sideBarStickyScroll.shadow": "#2f4fc4",
+    "sideBarSectionHeader.background": "#4141a5",
+    "tab.activeBackground": "#4a4aab",
+    "breadcrumb.background": "#4141a5",
+    "tab.inactiveBackground": "#323232",
+    "tab.inactiveForeground": "#b8b8b8",
+    "list.warningForeground": "#e7e67d",
+    "list.errorForeground": "#f3b0b0",
+    "list.hoverBackground": "#4a4aab",
+    "list.activeSelectionBackground": "#275bbb",
+    "list.inactiveSelectionBackground": "#275bbb",
+    "list.focusBackground": "#4545aa",
+    "activityBar.activeBorder": "#56aff4",
+    "diffEditor.insertedLineBackground": "#181850d8",
+    "diffEditor.removedLineBackground": "#181850d8",
+    "diffEditor.insertedTextBackground": "#2068b8d8",
+    "diffEditor.removedTextBackground": "#2068b8d8",
+    "diffEditor.border": "#e8e8f0",
+    "diffEditor.diagonalFill": "#5050a0",
+    "diffEditorGutter.removedLineBackground": "#181850",
+    "diffEditorGutter.insertedLineBackground": "#181850",
+    "panel.border": "#e8e8f0",
+    "tab.border": "#484848",
+    "editorRuler.foreground": "#484890",
+    "editorGutter.modifiedBackground": "#4281c0",
+    "editorGutter.addedBackground": "#2f8faa",
+    "editorGutter.deletedBackground": "#c65ac3",
+    "gitDecoration.modifiedResourceForeground": "#a3d0f7",
+    "gitDecoration.untrackedResourceForeground": "#ffd1fd",
+    "gitDecoration.addedResourceForeground": "#9df6f0",
+    "gitDecoration.deletedResourceForeground": "#eea9f0",
+    "gitDecoration.stageModifiedResourceForeground": "#9df6f0",
+    "gitDecoration.conflictingResourceForeground": "#eea9f0",
+    "editorBracketHighlight.foreground1": "#e8e8f0",
+    "editorBracketHighlight.foreground2": "#c5d9ff",
+    "editorBracketHighlight.foreground3": "#e8e8f0",
+    "editorBracketHighlight.foreground4": "#c5d9ff",
+    "editorBracketHighlight.foreground5": "#e8e8f0",
+    "editorBracketHighlight.foreground6": "#c5d9ff",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ff9090",
+    "dropdown.background": "#282870",
+    "dropdown.border": "#4848c0",
+    "input.background": "#202068",
+    "input.foreground": "#e8e8f0",
+    "input.border": "#4848c0",
+    "button.background": "#9090a0",
+    "settings.dropdownBackground": "#282870",
+    "terminal.foreground": "#e8e8f0",
+    "terminal.background": "#32327a",
+    "terminal.ansiBlue": "#7ad9ff",
+    "terminal.ansiCyan": "#8fdbfa",
+    "terminal.ansiBrightCyan": "#abe4fa",
+    "terminal.ansiGreen": "#9ceeae",
+    "terminal.ansiBrightGreen": "#c3ffd0",
+    "terminal.ansiYellow": "#f7f1a4",
+    "terminal.ansiMagenta": "#decbf7",
+    "terminal.ansiBrightYellow": "#f7f1a4",
+    "terminal.ansiBrightRed": "#ffa2e0",
+    "terminal.ansiRed": "#ffc17a",
+    "jumpy2.labelFontColor": "#f0f0ff",
+    "jumpy2.labelBackgroundColor": "#8888c8",
+    "jumpy2.labelBorderColor": "#00000000",
+    "jumpy2.beaconColor": "#000000ff"
+  }
+}

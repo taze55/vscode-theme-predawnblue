@@ -1,0 +1,21 @@
+{
+  "publisher": "taze55",
+  "name": "predawnblue",
+  "displayName": "Predawn Blue",
+  "description": "Predawn Blue theme for Visual Studio Code",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "id": "Predawn Blue",
+        "label": "Predawn Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/predawnblue-color-theme.json"
+      }
+    ]
+  }
+}
