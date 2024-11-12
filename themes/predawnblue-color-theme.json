@@ -24,6 +24,9 @@
     "editor.rangeHighlightBackground": "#4249aa",
     "editorUnnecessaryCode.opacity": "#000000c0",
 
+    "textLink.foreground": "#81c2f3",
+    "textLink.activeForeground": "#81c2f3",
+
     "scrollbar.shadow": "#2f4fc480",
     "scrollbarSlider.background": "#40a7df80",
     "scrollbarSlider.hoverBackground": "#40a7df80",
