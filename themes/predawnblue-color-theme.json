@@ -69,9 +69,10 @@
     "tab.activeBackground": "#4a4aa8",
     "icon.foreground": "#d0d0d8",
     "editorGroupHeader.tabsBackground": "#2c2c70",
-    "breadcrumb.background": "#2c2c70",
+    "breadcrumb.background": "#4141a5",
+    "breadcrumb.foreground": "#e8e8f0",
     "tab.border": "#404096",
-    "editorGroupHeader.tabsBorder": "#404096",
+    "editorGroupHeader.tabsBorder": "#4141a5",
     "editorGroupHeader.border": "#e8e8f0",
 
     "list.warningForeground": "#e7e67d",
